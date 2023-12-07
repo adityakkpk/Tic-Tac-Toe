@@ -35,7 +35,7 @@ const checkWin = () => {
         ){
             document.querySelector('.info').innerText = boxtext[e[0]].innerText + ' Won!';
             document.querySelector('.imgbox').getElementsByTagName('img')[0].style.width = '200px';
-            line.style.width = '20vw';
+            line.style.width = '22vw';
             line.style.transform = `translate(${e[3]}vw, ${e[4]}vw) rotate(${e[5]}deg)`;
             isgameover = true;
         }
